@@ -21,6 +21,15 @@ To install required libraries:
 pip install -r requirements.txt
 ```
 
+## Kaggle API access
+This project uses a dataset hosted on Kaggle and requires access via the Kaggle API. To enable this:
+
+Log in at kaggle.com and go to Account Settings.
+
+Under the API section, click "Create New API Token" to download kaggle.json.
+
+Upload the file when prompted in the notebook. It will be used to authenticate and download the dataset.
+
 ## How to Run the GUI
 
 ```
